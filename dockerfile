@@ -2,11 +2,11 @@ FROM node:lts-alpine
 
 WORKDIR /app
 
-COPY /server/package*.json ./
+COPY package*.json ./
 
 RUN npm install
 
-COPY /server .
+COPY . .
 
 ENV PORT=80
 ## init
