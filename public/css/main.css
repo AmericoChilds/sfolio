@@ -1,0 +1,730 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700;800&family=Open+Sans:wght@300;400&display=swap");
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #141115;
+  width: 100%;
+}
+
+.nav-container a {
+  color: #FFF1E1;
+}
+
+.nav-container nav {
+  float: right;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 2.7em;
+  margin-right: 1.3em;
+  margin-top: 1em;
+}
+
+header .logo {
+  font-family: "Bitter";
+  padding-top: .3em;
+  font-size: 1em;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .8em;
+  padding-top: .4em;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.right-header {
+  display: none;
+}
+
+.topmain {
+  background: #141115;
+  color: #FFF1E1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-bottom: 30em;
+  padding-top: 5em;
+}
+
+.topmain .top-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 2.7em;
+  text-align: left;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.topmain .top-title {
+  font-family: "Bitter";
+  font-size: 3em;
+}
+
+.cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  font-size: .8em;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.cta .meet-button {
+  font-weight: 600;
+  font-size: 1.5em;
+  border-radius: 25px;
+  background: #FEBC71;
+  color: #FFF1E1;
+  border: none;
+  height: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  /*
+        margin-top: 1.5em;
+        margin-right: 1.5em;
+        */
+}
+
+.cta img {
+  height: 2em;
+  margin-left: 1em;
+  /*
+        margin-left: -1em;
+        margin-top: 1.7em;
+        */
+}
+
+.topmain-elements {
+  display: none;
+}
+
+section {
+  padding: 2.5em 2.5em;
+  text-align: left;
+}
+
+.about {
+  position: relative;
+  background-color: #FFF1E1;
+  z-index: -1;
+  padding-bottom: 5em;
+}
+
+.floral-image-about {
+  position: absolute;
+  width: 20em;
+  margin-left: -4em;
+  z-index: -1;
+  margin-top: -1.5em;
+}
+
+.about-subtitle, .about-experience {
+  font-size: 1.3em;
+  margin-bottom: 0em;
+}
+
+.about-title {
+  font-family: "Bitter";
+  font-weight: 700;
+  font-size: 3em;
+  margin-top: 0em;
+}
+
+.about-body {
+  margin-top: -1em;
+}
+
+.about-toptech {
+  margin-top: 3em;
+}
+
+.about-toptech .about-tech {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.about-toptech .about-tech .about-tech-id {
+  width: 7em;
+}
+
+.about-toptech .about-tech ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.about-toptech .about-tech li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-top: 1em;
+}
+
+.about-toptech .about-tech img {
+  height: 3.5em;
+  margin: 0 auto;
+  padding-bottom: .5em;
+}
+
+.tech-title {
+  border-radius: 25px;
+  font-size: 1em;
+  color: #FFF1E1;
+  background: #141115;
+  width: 6em;
+  margin: 0 auto;
+}
+
+.about-exp {
+  margin-top: 3em;
+}
+
+.job-header .job-title {
+  font-family: "Bitter";
+  font-size: 1.5em;
+}
+
+.job-header .job-loc {
+  font-family: "Bitter";
+  margin-top: -1em;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.job-time {
+  margin-top: -.5em;
+  font-weight: 100;
+  font-size: .95em;
+}
+
+.job-technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.job-technologies ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.job-technologies .job-tech {
+  border-radius: 25px;
+  font-size: 1em;
+  color: #FFF1E1;
+  background: #141115;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: .5em;
+  margin-top: 0em;
+}
+
+.job-desc ul {
+  margin-left: 1.2em;
+  list-style-type: disc;
+}
+
+.portfolio-floral {
+  position: absolute;
+  width: 13em;
+  margin-left: -2.1em;
+  margin-top: -10em;
+  z-index: 1;
+}
+
+.portfolio {
+  background: #141115;
+  padding-bottom: 9em;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .portfolio-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  margin-bottom: 50px;
+  /*
+            .portfolio-image {
+            
+            width: 100%;
+            height: 50%;
+            max-height: 20em;
+            
+            background: #A3320B;
+            border-radius: 15px;
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+            margin-top: -2em;
+            padding-top: 1em;
+            z-index: 1;
+            
+            img {
+                display: flex;
+            }
+            
+        }
+        */
+}
+
+.portfolio .portfolio-card .portfolio-box {
+  background: #FFF1E1;
+  padding-left: 2.1em;
+  padding-right: 2.1em;
+  padding-top: .5em;
+  border-radius: 25px;
+  z-index: 2;
+  /*
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                */
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+.portfolio .portfolio-title {
+  font-family: "Bitter";
+  font-size: 3em;
+  position: relative;
+  z-index: 5;
+}
+
+.portfolio .portfolio-hr {
+  margin-top: -2em;
+}
+
+.portfolio .portfolio-tech {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio .portfolio-github {
+  height: 2em;
+}
+
+.portfolio .portfolio-preview {
+  border-radius: 25px;
+  background: #A3320B;
+  width: 8em;
+  height: 2em;
+  padding-left: 2.2em;
+  padding-top: .5em;
+  margin-right: 1em;
+  font-weight: 1000;
+  color: #FFF1E1;
+  margin-left: 1em;
+}
+
+.portfolio .portfolio-interact {
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.portfolio .portfolio-github {
+  margin-top: 1.2em;
+}
+
+.portfolio .portfolio-tech-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 1em;
+}
+
+.portfolio .portfolio-tech-ul .portfolio-tech {
+  border-radius: 15px;
+  font-size: 1em;
+  color: #FFF1E1;
+  background: #141115;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: .5em;
+  margin-top: 0em;
+}
+
+.contact {
+  background: #141115;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  background-image: url("../images/circlespattern.svg");
+  background-clip: inherit;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 70vh;
+  padding-top: 8em;
+  padding-bottom: 13em;
+}
+
+.contact .background-circles {
+  display: block;
+  width: 100%;
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact .contact-form {
+  margin-top: 3em;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+}
+
+.contact .contact-left {
+  border-radius: 25px 25px 0px 0px;
+  background: #FEBC71;
+  padding-left: 1em;
+  padding-right: 5em;
+  padding-bottom: 1.5em;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.contact .contact-left img {
+  height: 1.5em;
+  fill: #141115;
+}
+
+.contact .contact-left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: -1em;
+}
+
+.contact .contact-left li {
+  margin-right: .5em;
+}
+
+.contact .contact-title {
+  font-family: "Bitter";
+  color: #141115;
+  font-size: 2em;
+  text-align: left;
+}
+
+.contact .contact-right {
+  padding: 1em;
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+  background: #141115;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.contact .contact-form-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .contact-form-box input[type=text] {
+  width: 100%;
+  background: #302C2C;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFF1E1;
+  border: none;
+  border-radius: 10px;
+  font-family: "Open Sans";
+}
+
+.contact .contact-form-box textarea {
+  width: 100%;
+  background: #302C2C;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFF1E1;
+  border: none;
+  border-radius: 10px;
+  font-family: "Open Sans";
+}
+
+@media only screen and (min-width: 800px) {
+  .topmain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .topmain-elements {
+    display: unset;
+    background: blue;
+  }
+  .topmain-elements .rect-top {
+    position: absolute;
+    width: 25em;
+    right: 0em;
+  }
+  .topmain-elements .circle-top {
+    position: absolute;
+    width: 17em;
+    right: 15em;
+    top: 10em;
+  }
+  .topmain-elements .floral-top {
+    position: absolute;
+    width: 11em;
+    right: 0em;
+    top: 10em;
+  }
+  .portfolio-card {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .topmain {
+    height: 80vh;
+  }
+  .nav-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+    margin-right: 0em;
+  }
+  nav {
+    margin-right: 10em;
+  }
+  section {
+    padding: 4em;
+  }
+  header {
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+  .right-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 1em;
+    margin-right: 4em;
+  }
+  .right-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 12em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .right-header ul img {
+    width: 30px;
+  }
+  .right-header ul button {
+    background: none;
+    height: 2em;
+    border-radius: 19px;
+    font-size: .8em;
+    width: 8em;
+    border: 2px solid #FFF1E1;
+    color: #FFF1E1;
+    font-family: 'Open Sans';
+  }
+  .topmain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .topmain-elements {
+    display: unset;
+    background: blue;
+  }
+  .topmain-elements .rect-top {
+    position: absolute;
+    width: 35em;
+    right: 0em;
+  }
+  .topmain-elements .circle-top {
+    position: absolute;
+    width: 25em;
+    right: 20em;
+    top: 15em;
+  }
+  .topmain-elements .floral-top {
+    position: absolute;
+    width: 15em;
+    right: 0em;
+    top: 15em;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .topmain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .topmain-elements {
+    display: unset;
+    background: blue;
+  }
+  .topmain-elements .rect-top {
+    position: absolute;
+    width: 50em;
+    right: 0em;
+  }
+  .topmain-elements .circle-top {
+    position: absolute;
+    width: 30em;
+    right: 30em;
+    top: 13em;
+  }
+  .topmain-elements .floral-top {
+    position: absolute;
+    width: 25em;
+    right: 0em;
+    top: 10em;
+  }
+}
+/*# sourceMappingURL=main.css.map */

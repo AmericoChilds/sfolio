@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700;800&family=Open+Sans:wght@300;400&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family:'Open Sans';
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img { 
+    width: 100%
+}
+
+.nav-container {
+    background: #141115;
+    width: 100%;
+
+    a {
+        color: #FFF1E1;
+    }
+
+    nav {
+        float: right;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 2.7em;
+    margin-right: 1.3em;
+    margin-top: 1em;
+
+    .logo {
+        font-family: "Bitter";
+        padding-top: .3em;
+        font-size: 1em;
+    }
+
+    ul {
+        display: flex;
+        font-size: .8em;
+        padding-top: .4em;
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+
+.right-header {
+    display: none;
+}
+
+.topmain {
+    background: #141115;
+    color: #FFF1E1;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-bottom: 30em;
+    padding-top: 5em;
+    
+    .top-content {
+        justify-content: center;
+        margin-left: 2.7em;
+        text-align: left;
+        align-content: center;
+    }
+
+    .top-title {
+        font-family: "Bitter";
+        font-size: 3em;
+    }
+  
+}
+
+.cta {
+    display: flex;
+    font-weight: bold;
+    font-size: .8em;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    .meet-button {
+        font-weight: 600;
+        font-size: 1.5em;
+        border-radius: 25px;
+        background: #FEBC71;
+        color: #FFF1E1;
+        border: none;
+        height: 2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        flex-grow: 2;
+        /*
+        margin-top: 1.5em;
+        margin-right: 1.5em;
+        */
+    }
+
+    img {
+        height: 2em;
+        margin-left: 1em;
+        /*
+        margin-left: -1em;
+        margin-top: 1.7em;
+        */
+    }
+}
+
+.topmain-elements {
+    display: none;
+}
+
+section {
+    padding: 2.5em 2.5em;
+    text-align: left;
+}
+
+.about {
+    position: relative;
+    background-color: #FFF1E1;
+    z-index: -1;
+    padding-bottom: 5em;
+}
+
+.floral-image-about {
+    position: absolute;
+    width: 20em;
+    margin-left: -4em;
+    z-index: -1;
+    margin-top: -1.5em;
+}
+
+.about-subtitle, .about-experience {
+    font-size: 1.3em;
+    margin-bottom: 0em;
+}
+
+.about-title {
+    font-family: "Bitter";
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 0em;
+}
+
+.about-body {
+    margin-top: -1em;
+}
+
+.about-toptech {
+
+    margin-top: 3em;
+
+    .about-tech {
+        
+        display: flex;
+        text-align: center;
+        width: 100%;
+
+        .about-tech-id {
+            width: 7em;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        li {
+            flex-grow: 1;
+            margin-top: 1em;
+        }
+
+        img {
+            height: 3.5em;
+            margin: 0 auto;
+            padding-bottom: .5em;
+        }
+    }
+}
+
+.tech-title {
+    border-radius: 25px;
+    font-size: 1em;
+    color: #FFF1E1;
+    background: #141115;
+    width: 6em;
+    margin: 0 auto;
+}
+
+.about-exp {
+    margin-top: 3em;
+}
+
+.job-header {
+    .job-title {
+        font-family:"Bitter";
+        font-size: 1.5em;
+    }
+
+    .job-loc {
+        font-family:"Bitter";
+        margin-top: -1em;
+        font-weight: 700;
+        font-size: 1em;
+    }
+
+}
+
+.job-time {
+    margin-top: -.5em;
+    font-weight: 100;
+    font-size: .95em;
+}
+
+.job-technologies {
+    display: flex;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .job-tech {
+        border-radius: 25px;
+        font-size: 1em;
+        color: #FFF1E1;
+        background: #141115;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: .5em;
+        margin-top: 0em;
+    }
+}
+
+.job-desc {
+    ul {
+        margin-left: 1.2em;
+        list-style-type: disc;
+    }
+}
+
+
+.portfolio-floral {
+    position: absolute;
+    width: 13em;
+    margin-left: -2.1em;
+    margin-top: -10em;
+    z-index: 1;
+}
+.portfolio {
+    background: #141115;
+    padding-bottom: 9em;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: center;
+
+        .portfolio-card {
+            display: flex;
+            flex-direction: row;
+            flex-flow: row wrap;
+            margin-bottom: 50px;
+
+            .portfolio-box {
+                background: #FFF1E1;
+                padding-left: 2.1em;
+                padding-right: 2.1em;
+                padding-top: .5em;
+                border-radius: 25px;
+                z-index: 2;
+                /*
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                */
+                flex-grow: 5;
+                
+            }
+            /*
+            .portfolio-image {
+            
+            width: 100%;
+            height: 50%;
+            max-height: 20em;
+            
+            background: #A3320B;
+            border-radius: 15px;
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+            margin-top: -2em;
+            padding-top: 1em;
+            z-index: 1;
+            
+            img {
+                display: flex;
+            }
+            
+        }
+        */
+    }
+
+    .portfolio-title {
+        font-family: "Bitter";
+        font-size: 3em;
+        position: relative;
+        z-index: 5;
+    }
+
+    .portfolio-hr {
+        margin-top: -2em;
+    }
+
+    
+
+    .portfolio-tech {
+        position: relative;
+        z-index: 1;
+    }
+
+    .portfolio-github {
+        height: 2em;
+    }
+
+    .portfolio-preview {
+        border-radius: 25px;
+        background: #A3320B;
+        width: 8em;
+        height: 2em;
+        padding-left: 2.2em;
+        padding-top: .5em;
+        margin-right: 1em;
+        font-weight: 1000;
+        color: #FFF1E1;
+        margin-left: 1em;
+    }
+
+    .portfolio-interact {
+            margin-bottom: 1em; 
+            display: flex;
+            flex-direction: row;
+    }
+
+    .portfolio-github {
+        margin-top: 1.2em;
+    }
+
+    .portfolio-tech-ul {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1em;
+
+        .portfolio-tech {
+            border-radius: 15px;
+            font-size: 1em;
+            color: #FFF1E1;
+            background: #141115;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-right: .5em;
+            margin-top: 0em;
+        }
+    }
+
+}
+
+
+
+.contact {
+    background: #141115;
+
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/circlespattern.svg");
+    background-clip: inherit;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+    height: 70vh;
+    padding-top: 8em;
+    padding-bottom: 13em;
+    
+    
+    .background-circles {
+        display: block;
+        width: 100%;
+        z-index: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .contact-form {
+        margin-top: 3em;
+        border-radius: 25px;
+        display: flex;
+        float: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .contact-left {
+        border-radius: 25px 25px 0px 0px;
+        background: #FEBC71;
+        padding-left: 1em;
+        padding-right: 5em;
+        padding-bottom: 1.5em;
+        flex-grow: 1;
+
+        img {
+            height: 1.5em;
+            fill: #141115;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-top: -1em;
+        }
+
+        li {
+            margin-right: .5em;
+        }
+    }
+    .contact-title {
+        font-family: "Bitter";
+        color: #141115;
+        font-size: 2em;
+        text-align: left;
+    }
+
+    .contact-right {
+        padding: 1em;
+        flex-grow: 5;
+        background: #141115;
+        border-radius: 0px 0px 25px 25px ;
+    }
+
+    .contact-form-box {
+        display: flex;
+        flex-direction: column;
+        input[type=text] {
+            width: 100%;
+            background: #302C2C;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            color: #FFF1E1;
+            border: none;
+            border-radius: 10px;
+            font-family: "Open Sans";
+          }
+        textarea {
+            width: 100%;
+            background: #302C2C;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            color: #FFF1E1;
+            border: none;
+            border-radius: 10px;
+            font-family: "Open Sans";
+        }
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+    .topmain {
+        display: flex;
+    }
+
+    .topmain-elements {
+        display: unset;
+        background: blue;
+
+        .rect-top {
+            position: absolute;
+            width: 25em;
+            right: 0em;
+        }
+
+        .circle-top {
+            position: absolute;
+            width: 17em;
+            right: 15em;
+            top: 10em;
+        }
+
+        .floral-top {
+            position: absolute;
+            width: 11em;
+            right: 0em;
+            top: 10em;
+        }
+    }
+
+    .portfolio-card {
+        display: grid;
+        grid-template-columns: 66% auto;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .topmain {
+        height: 80vh;
+    }
+
+    .nav-container {
+        display: grid;
+        grid-template-columns: 66% auto;
+        margin-right: 0em;
+    }
+    nav {
+        margin-right: 10em;
+    }
+    section {
+        padding: 4em;
+    }
+    header {
+        margin-top: 1em;
+        margin-right: 1em;
+    }
+
+    .right-header {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1em;
+
+        margin-right: 4em;
+
+        ul { 
+
+            display: flex;
+            justify-content: space-between;
+            width: 12em;
+            align-items: center;
+
+            img {
+                width: 30px;
+            }
+            button {
+                background: none;
+                height: 2em;
+                border-radius: 19px;
+                font-size: .8em;
+                width: 8em;
+                border: 2px solid #FFF1E1;
+                color: #FFF1E1;
+                font-family: 'Open Sans';
+            }
+        }
+    }
+
+    .topmain {
+        display: flex;
+    }
+
+    .topmain-elements {
+        display: unset;
+        background: blue;
+
+        .rect-top {
+            position: absolute;
+            width: 35em;
+            right: 0em;
+        }
+
+        .circle-top {
+            position: absolute;
+            width: 25em;
+            right: 20em;
+            top: 15em;
+        }
+
+        .floral-top {
+            position: absolute;
+            width: 15em;
+            right: 0em;
+            top: 15em;
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .topmain {
+        display: flex;
+    }
+
+    .topmain-elements {
+        display: unset;
+        background: blue;
+
+        .rect-top {
+            position: absolute;
+            width: 50em;
+            right: 0em;
+        }
+
+        .circle-top {
+            position: absolute;
+            width: 30em;
+            right: 30em;
+            top: 13em;
+        }
+
+        .floral-top {
+            position: absolute;
+            width: 25em;
+            right: 0em;
+            top: 10em;
+        }
+    }
+}
