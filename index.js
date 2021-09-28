@@ -13,4 +13,4 @@ router.get('/', function(req, res) {
     res.sendFile(path + 'index.html');
 })
 
-app.listen(3000);
+app.listen(80);
