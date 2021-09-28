@@ -8,7 +8,7 @@ var router = express.Router();
 app.use('/', router);
 
 app.use(express.static('public'));
-
+//
 router.get('/', function(req, res) {
     res.sendFile(path + 'index.html');
 })
